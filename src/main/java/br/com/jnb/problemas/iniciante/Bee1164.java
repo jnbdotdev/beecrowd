@@ -1,20 +1,21 @@
 package br.com.jnb.problemas.iniciante;
 
-import br.com.jnb.problemas.Problema;
-
+import br.com.jnb.problemas.Problem;
 import java.util.Scanner;
 
-public class Bee1164 extends Problema {
+public class Bee1164 extends Problem {
 
+    @Override
     public void problem() {
-
-        setNivel(2);
+        setLevel(2);
+        setNumber(1022);
+        setCategory(Categories.BEGINNER);
 
         Scanner sc = new Scanner(System.in);
 
-        int operacoes = sc.nextInt();
+        int operations = sc.nextInt();
 
-        for (int i = 0; i < operacoes; i++) {
+        for (int i = 0; i < operations; i++) {
 
             int r = 0;
             boolean perfeito = false;
