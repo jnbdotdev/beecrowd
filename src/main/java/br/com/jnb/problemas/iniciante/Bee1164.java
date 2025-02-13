@@ -8,7 +8,7 @@ public class Bee1164 extends Problem {
     @Override
     public void problem() {
         setLevel(2);
-        setNumber(1022);
+        setNumber(1164);
         setCategory(Categories.BEGINNER);
 
         Scanner sc = new Scanner(System.in);
