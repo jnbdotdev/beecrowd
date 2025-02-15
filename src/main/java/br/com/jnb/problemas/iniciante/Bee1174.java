@@ -11,6 +11,7 @@ public class Bee1174 extends Problem {
         setLevel(3);
         setNumber(1174);
         setCategory(Categories.BEGINNER);
+        setDescription("Show numbers below 10 in a vector");
 
         Scanner sc = new Scanner(System.in);
         Double[] a = new Double[100];

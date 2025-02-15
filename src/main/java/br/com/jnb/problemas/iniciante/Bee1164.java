@@ -10,6 +10,7 @@ public class Bee1164 extends Problem {
         setLevel(2);
         setNumber(1164);
         setCategory(Categories.BEGINNER);
+        setDescription("Calculates perfect numbers");
 
         Scanner sc = new Scanner(System.in);
 

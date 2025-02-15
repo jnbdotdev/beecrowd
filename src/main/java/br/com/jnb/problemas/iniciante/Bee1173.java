@@ -11,6 +11,7 @@ public class Bee1173 extends Problem {
         setLevel(1);
         setNumber(1173);
         setCategory(Categories.BEGINNER);
+        setDescription("Doubles a value X by the same number of times as the vector's capacity");
 
         Scanner sc = new Scanner(System.in);
         int[] x = new int[10];

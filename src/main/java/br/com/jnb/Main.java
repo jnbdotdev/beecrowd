@@ -1,12 +1,12 @@
 package br.com.jnb;
 
-import br.com.jnb.problemas.iniciante.Bee1175;
+import br.com.jnb.problemas.iniciante.Bee1176;
 
 public class Main {
     public static void main(String[] args) {
 
-        Bee1175 bee1175 = new Bee1175();
-        bee1175.problem();
+        Bee1176 bee1176 = new Bee1176();
+        bee1176.problem();
 
     }
 }

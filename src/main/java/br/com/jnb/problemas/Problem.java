@@ -5,6 +5,7 @@ public abstract class Problem {
     private int level;
     private int number;
     private String category;
+    private String description;
 
     public enum Categories {
         BEGINNER,
@@ -42,5 +43,13 @@ public abstract class Problem {
 
     public void setLevel(int level) {
         this.level = level;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

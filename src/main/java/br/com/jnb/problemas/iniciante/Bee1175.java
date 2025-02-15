@@ -11,6 +11,7 @@ public class Bee1175 extends Problem {
         setLevel(2);
         setNumber(1175);
         setCategory(Categories.BEGINNER);
+        setDescription("Reverse the order of the vector");
 
         Scanner sc = new Scanner(System.in);
 

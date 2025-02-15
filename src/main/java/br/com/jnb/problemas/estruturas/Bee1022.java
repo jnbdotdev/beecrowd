@@ -10,6 +10,7 @@ public class Bee1022 extends Problem {
         setLevel(4);
         setNumber(1022);
         setCategory(Categories.STRUCTURES);
+        setDescription("Perform mathematical operations with fractions");
 
         Scanner sc = new Scanner(System.in);
         int operations = sc.nextInt();

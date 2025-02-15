@@ -11,10 +11,11 @@ public class Bee1172 extends Problem {
         setLevel(1);
         setNumber(1172);
         setCategory(Categories.BEGINNER);
+        setDescription("Replaces numbers equal to or less than zero with 1");
 
         Scanner sc = new Scanner(System.in);
         int[] x = new int[10];
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < x.length; i++) {
             x[i] = sc.nextInt();
         }
         for (int j = 0; j < x.length; j++) {

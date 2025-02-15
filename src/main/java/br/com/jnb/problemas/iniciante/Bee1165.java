@@ -12,6 +12,7 @@ public class Bee1165 extends Problem {
         setLevel(2);
         setNumber(1164);
         setCategory(Categories.BEGINNER);
+        setDescription("Calculates prime numbers");
 
         Scanner sc = new Scanner(System.in);
 
